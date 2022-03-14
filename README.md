@@ -34,10 +34,11 @@ pip -r requirements.txt (Not all are used in the current form of the script, suc
 
 Usage: python IP_info.py
 
+-----------------------------Details Data-----------------------------------
 
 The `Handler.getDetails()` method accepts an IP address as an optional, positional argument. If no IP address is specified, the API will return data for the IP address from which it receives the request.
 
------------------------------Details Data-----------------------------------
+
 The `handler.getDetails()` method will return a `Details` object that contains all fields listed in the [IPinfo developer docs](https://ipinfo.io/developers/responses#full-response) with a few minor additions. Properties can be accessed directly.
 
 ---------------------------------------------------------
