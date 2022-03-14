@@ -41,17 +41,15 @@ The `Handler.getDetails()` method accepts an IP address as an optional, position
 The `handler.getDetails()` method will return a `Details` object that contains all fields listed in the [IPinfo developer docs](https://ipinfo.io/developers/responses#full-response) with a few minor additions. Properties can be accessed directly.
 
 ---------------------------------------------------------
-                                                        |
-                                                        |
-details.ip -returns IP Address                          |
-details.hostname -returns hostname (doesn't always work)|
-details.city -returns city                              |
-details.region -returns region                          |
-details.country -returns country                        |
-details.loc -returns location coordinates               |
-details.org -returns organization name                  |
-details.postal -returns postal code                     |
-details.timezone returns timezone                       |
+details.ip -returns IP Address                          
+details.hostname -returns hostname (doesn't always work)
+details.city -returns city                              
+details.region -returns region                          
+details.country -returns country                        
+details.loc -returns location coordinates               
+details.org -returns organization name                 
+details.postal -returns postal code                    
+details.timezone returns timezone                      
 ---------------------------------------------------------
 
 
