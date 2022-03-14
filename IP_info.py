@@ -3,7 +3,7 @@ import time
 
 #Apple IP 57.116.146.168
 
-access_token = ''
+access_token = ('') #Put IPinfo API key here
 
 handler = ipinfo.getHandler(access_token)
 
@@ -34,14 +34,13 @@ returnInfo()
 Arguments for shell:                                    |
                                                         |
 details.ip -returns IP Address                          |
-details.hostname -returns hostname (doesn't always work)|               
+details.hostname -returns hostname (doesn't always work)|
 details.city -returns city                              |
 details.region -returns region                          |
 details.country -returns country                        |
-details.loc -returns location coordinates               |                                                     
+details.loc -returns location coordinates               |
 details.org -returns organization name                  |
 details.postal -returns postal code                     |
 details.timezone returns timezone                       |
 ---------------------------------------------------------
 '''
-
