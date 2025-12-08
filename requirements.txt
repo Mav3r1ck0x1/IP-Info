@@ -54,7 +54,7 @@ pytest-asyncio==0.14.0
     # via -r requirements.in
 regex==2021.7.6
     # via black
-requests==2.25.1
+requests==2.32.4
     # via -r requirements.in
 six==1.16.0
     # via pip-tools
