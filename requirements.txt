@@ -1,4 +1,4 @@
-aiohttp==3.9.4
+aiohttp==3.12.14
     # via -r requirements.in
 appdirs==1.4.4
     # via black
